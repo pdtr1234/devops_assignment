@@ -1,0 +1,12 @@
+1.Log in to the AWS Management Console and create an EC2 instance.
+2.Choose the Amazon Linux 2 AMI.
+3.Select the t2.micro instance type and continue with the setup process.
+4.Create a new security group and add rules to allow HTTP and SSH traffic only.
+5.Create a new EBS volume of 1GB and attach it to the instance.
+6.Connect to the instance using an SSH client and format the attached EBS volume.
+7.Mount the EBS volume to the instance's file system.
+8.Install and configure Apache web server.
+9.Create an index.html file containing "Hello GR World" in the Document Root directory of the Apache server.
+10.Modify the Apache configuration file to set the Document Root to the directory on the EBS volume.
+11.Configure the instance to start Apache automatically upon boot.
+12.Allocate an Elastic IP address and associate it with the instance.
